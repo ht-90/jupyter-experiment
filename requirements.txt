@@ -1,0 +1,11 @@
+# Web scraping
+requests
+urllib3
+beautifulsoup4
+
+# Data processing
+numpy
+pandas
+
+# Jupyter notebook
+notebook
