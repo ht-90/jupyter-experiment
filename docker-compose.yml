@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+
+  jupyter-experiment:
+
+    container_name: python39
+    build: .
+    image: jupyter-experiment:latest
+    volumes:
+      - ".:/home"
+    ports:
+      - "8888:8888"
